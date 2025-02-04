@@ -1,0 +1,30 @@
+body{
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.button{
+    width: 100px;
+    height: 100px;
+}
+button{
+    background-color: green;
+    border-radius: 12px;
+}
+button:hover{
+    scale: 1.05;
+}
+#scoring{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serify;
+}
